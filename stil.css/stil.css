@@ -1,0 +1,103 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 80px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #d291bc;
+}
+ .ime {
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+  color: #d291bc;
+}
+
+h2 {
+    color: #d291bc;
+}
+p {
+  line-height: 2;
+}
+
+
+.gornji-kontenjer{
+  position: relative;
+  background-color: #d4f3ef;
+  padding-top: 100px;
+}
+
+.gornji-oblaci {
+  position: absolute;
+  right: 200px;
+  top: 30px;
+  opacity: 30%;
+}
+.srednji-oblaci {
+  position: absolute;
+  left: 100px;
+  bottom: 250px;
+  opacity: 70%
+}
+.donji-oblaci{
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+}
+.srednji-kontenjer{
+  margin: 100px 0;
+}
+.donji-kontenjer{
+
+}
+.skill-1{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.knjige {
+  float: left;
+  margin: 30px;
+}
+.komp {
+  float: right;
+  margin: 30px;
+}
+hr  {
+
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 5px;
+width: 5%;
+margin: 50px auto 50px auto;
+}
+.pozdrav{
+  width: 30%;
+  margin: auto;
+}
+.kontakt{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.dugme {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 20px 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+.dugme:hover {
+  background-color: #4095c6;
+}
